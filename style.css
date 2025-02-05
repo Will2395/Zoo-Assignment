@@ -1,0 +1,18 @@
+body {
+    background-color: #8FBC8F;
+}
+
+img {
+    max-height: 15em;
+}
+
+.outer-list::marker {
+    /* This allows me to target only the marker number in the list and not all text within the list item */
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+footer {
+    height: 3em;
+}
